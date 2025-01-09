@@ -1,3 +1,7 @@
+import insta from '../assets/insta.png'
+import twitter from '../assets/twitter.png'
+import cross from '../assets/cross.png'
+
 const Footer = () => {
     return (
         <header className="flex justify-between items-center px-8 bg-black text-white">
@@ -14,19 +18,19 @@ const Footer = () => {
                 <div className="flex space-x-1 text-gray-400">
                     <span className="hover:text-white cursor-pointer">
                         <img
-                            src="src/assets/twitter.png"
+                            src={twitter}
                             className="h-7 w-10 object-contain mr-1"
                         />
                     </span>
                     <span className="hover:text-white cursor-pointer">
                         <img
-                            src="src/assets/insta.png"
+                            src={insta}
                             className="h-7 w-10 object-contain mr-1"
                         />
                     </span>
                     <span className="hover:text-white cursor-pointer">
                         <img
-                            src="src/assets/cross.png"
+                            src={cross}
                             className="h-7 w-10 object-contain mr-1"
                         />
                     </span>
