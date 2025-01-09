@@ -1,3 +1,5 @@
+import msg from '../assets/msg.png'
+
 function ChatList() {
     return (
         <div>
@@ -6,7 +8,7 @@ function ChatList() {
             <div className="mb-6">
                 <div className="flex items-center justify-center bg-rose-300 text-black rounded-xl p-2">
                     <img
-                        src="src/assets/msg.png"
+                        src={msg}
                         className="h-6 w-5 object-contain mr-1"
                     />
                     <span className="text-sm font-sans font-semibold">
