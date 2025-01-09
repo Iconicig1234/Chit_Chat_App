@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import send from '../assets/send.png'
 
 const ChatBox = () => {
     const [messages, setMessages] = useState([
@@ -98,7 +99,7 @@ const ChatBox = () => {
                     onClick={handleSendMessage}
                     className="bg-rose-300 text-black p-3 rounded-full hover:bg-rose-400"
                 >
-                    <img src="src/assets/send.png" className="h-6 w-6" alt="Send" />
+                    <img src={send} className="h-6 w-6" alt="Send" />
                 </button>
             </div>
         </div>
