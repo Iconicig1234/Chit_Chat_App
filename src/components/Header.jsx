@@ -1,3 +1,7 @@
+import home from '../assets/home.png'
+import create from '../assets/create.png'
+import edit from '../assets/edit.png'
+
 const Header = () => {
     return (
         <header className="shadow sticky z-50 top-0">
@@ -23,14 +27,14 @@ const Header = () => {
                                 </li>
                                 <li className="flex flex-wrap py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-rose-300 lg:p-0 text-slate-100 text-lg">
                                     <img
-                                        src="src/assets/create.png"
+                                        src={create}
                                         className="h-6 w-5 object-contain mr-1"
                                     />
                                     Create
                                 </li>
                                 <li className="flex flex-wrap py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-rose-300 lg:p-0 text-slate-100 text-lg">
                                     <img
-                                        src="src/assets/edit.png"
+                                        src={edit}
                                         className="h-6 w-5 object-contain mr-1"
                                     />
                                     Edit
