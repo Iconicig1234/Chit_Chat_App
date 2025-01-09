@@ -20,7 +20,7 @@ const Header = () => {
                             <ul className="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0">
                                 <li className="flex flex-wrap py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-rose-300 lg:p-0 text-slate-100 text-lg">
                                     <img
-                                        src="src/assets/home.png"
+                                        src={home}
                                         className="h-6 w-5 object-contain mr-1"
                                     />
                                     Explore
